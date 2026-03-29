@@ -32,7 +32,7 @@
         .nav-links { display: flex; gap: 20px; align-items: center; }
         .nav-links a { text-decoration: none; color: var(--dark); font-weight: 600; transition: 0.3s; }
         .nav-links a:hover { color: var(--primary); }
-        .nav-btn { background: var(--primary); color: var(--white); padding: 8px 20px; border-radius: 5px; text-decoration: none; font-weight: 600; transition: 0.3s; }
+        .nav-btn { background: var(--primary); color: #fff !important; padding: 8px 20px; border-radius: 5px; text-decoration: none; font-weight: 600; transition: 0.3s; }
         .nav-btn:hover { background: var(--primary-hover); }
 
         /* Hero Section (Modern 2-Column) */
@@ -45,8 +45,9 @@
         .new-price { font-size: 2.5em; font-weight: 700; color: var(--primary); }
         .old-price { font-size: 1.5em; text-decoration: line-through; color: #9ca3af; }
         .discount { background: var(--secondary); padding: 5px 15px; border-radius: 20px; font-weight: 600; font-size: 0.9em; }
-        .hero-img { height: 300px; width: 100%;  border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); transform: rotate(-2deg); transition: 0.3s; }
+        .hero-img { height: 100%; width: 100%;  border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); transform: rotate(-2deg); transition: 0.3s; }
         .hero-img:hover { transform: rotate(0deg); }
+        .hero-slider-image {height: 350px !important;}
 
         /* Countdown Timer */
         .countdown { display: flex; gap: 15px; margin-bottom: 30px; }
@@ -117,10 +118,8 @@
 
     <nav>
         <div class="container nav-content">
-            <a href="#" class="logo">🧶 টাঙ্গাইল সিল্ক</a>
+            <a href="#" class="logo">টাঙ্গাইল সিল্ক</a>
             <div class="nav-links">
-                <a href="#details">বিবরণ</a>
-                <a href="#gallery">গ্যালারি</a>
                 <a href="#order-form" class="nav-btn">অর্ডার করুন</a>
             </div>
         </div>
@@ -148,7 +147,7 @@
 
                 <a href="#order-form" class="btn-large">🛒 এখনই অর্ডার করুন</a>
             </div>
-            <div>
+            <div class="hero-slider-image">
                 <img src=https://assets0.mirraw.com/banner_sliders/12500/b1g3_desktop_main_webp.webp?1774523795" alt="টুইঙ্গাইল সিল্ক শাড়ী - প্রধান ছবি" class="hero-img">
             </div>
         </div>
